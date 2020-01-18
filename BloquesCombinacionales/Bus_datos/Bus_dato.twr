@@ -1,0 +1,131 @@
+--------------------------------------------------------------------------------
+Release 13.4 Trace  (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml Bus_dato.twx Bus_dato.ncd -o Bus_dato.twr Bus_dato.pcf -ucf
+pines.ucf
+
+Design file:              Bus_dato.ncd
+Physical constraint file: Bus_dato.pcf
+Device,package,speed:     xc3s100e,cp132,-5 (PRODUCTION 1.27 2012-01-07)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+DatoA<0>       |segmento<0>    |    7.923|
+DatoA<0>       |segmento<1>    |    8.688|
+DatoA<0>       |segmento<2>    |    7.763|
+DatoA<0>       |segmento<3>    |    9.085|
+DatoA<0>       |segmento<4>    |    8.682|
+DatoA<0>       |segmento<5>    |    7.871|
+DatoA<0>       |segmento<6>    |    7.911|
+DatoA<1>       |segmento<0>    |    9.289|
+DatoA<1>       |segmento<1>    |    9.073|
+DatoA<1>       |segmento<2>    |   10.310|
+DatoA<1>       |segmento<3>    |    9.150|
+DatoA<1>       |segmento<4>    |    8.747|
+DatoA<1>       |segmento<5>    |    9.271|
+DatoA<1>       |segmento<6>    |    9.372|
+DatoA<2>       |segmento<0>    |    9.084|
+DatoA<2>       |segmento<1>    |    8.927|
+DatoA<2>       |segmento<2>    |    9.252|
+DatoA<2>       |segmento<3>    |    8.102|
+DatoA<2>       |segmento<4>    |    7.699|
+DatoA<2>       |segmento<5>    |    9.061|
+DatoA<2>       |segmento<6>    |    9.034|
+DatoA<3>       |segmento<0>    |    8.767|
+DatoA<3>       |segmento<1>    |    9.013|
+DatoA<3>       |segmento<2>    |    9.181|
+DatoA<3>       |segmento<3>    |    8.359|
+DatoA<3>       |segmento<4>    |    7.956|
+DatoA<3>       |segmento<5>    |    8.693|
+DatoA<3>       |segmento<6>    |    8.898|
+DatoB<0>       |segmento<0>    |    8.593|
+DatoB<0>       |segmento<1>    |    9.358|
+DatoB<0>       |segmento<2>    |    8.433|
+DatoB<0>       |segmento<3>    |    9.755|
+DatoB<0>       |segmento<4>    |    9.352|
+DatoB<0>       |segmento<5>    |    8.541|
+DatoB<0>       |segmento<6>    |    8.581|
+DatoB<1>       |segmento<0>    |    8.468|
+DatoB<1>       |segmento<1>    |    8.252|
+DatoB<1>       |segmento<2>    |    9.489|
+DatoB<1>       |segmento<3>    |    8.329|
+DatoB<1>       |segmento<4>    |    7.926|
+DatoB<1>       |segmento<5>    |    8.450|
+DatoB<1>       |segmento<6>    |    8.551|
+DatoB<2>       |segmento<0>    |    9.216|
+DatoB<2>       |segmento<1>    |    9.059|
+DatoB<2>       |segmento<2>    |    9.384|
+DatoB<2>       |segmento<3>    |    8.234|
+DatoB<2>       |segmento<4>    |    7.831|
+DatoB<2>       |segmento<5>    |    9.193|
+DatoB<2>       |segmento<6>    |    9.166|
+DatoB<3>       |segmento<0>    |    8.286|
+DatoB<3>       |segmento<1>    |    8.532|
+DatoB<3>       |segmento<2>    |    8.700|
+DatoB<3>       |segmento<3>    |    7.878|
+DatoB<3>       |segmento<4>    |    7.475|
+DatoB<3>       |segmento<5>    |    8.212|
+DatoB<3>       |segmento<6>    |    8.417|
+Sel_dato       |segmento<0>    |    9.965|
+Sel_dato       |segmento<1>    |    9.808|
+Sel_dato       |segmento<2>    |   10.340|
+Sel_dato       |segmento<3>    |    9.541|
+Sel_dato       |segmento<4>    |    9.138|
+Sel_dato       |segmento<5>    |    9.942|
+Sel_dato       |segmento<6>    |    9.915|
+Sel_display<0> |anodo<0>       |    6.921|
+Sel_display<0> |anodo<1>       |    6.610|
+Sel_display<0> |anodo<2>       |    7.147|
+Sel_display<0> |anodo<3>       |    6.599|
+Sel_display<1> |anodo<0>       |    7.148|
+Sel_display<1> |anodo<1>       |    6.815|
+Sel_display<1> |anodo<2>       |    7.155|
+Sel_display<1> |anodo<3>       |    6.585|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Jan 18 06:21:03 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 120 MB
+
+
+

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\BloquesCombinacionales\bin_dec\superior.ncd
+OUTFILE=F:\BloquesCombinacionales\bin_dec\superior.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=F:\BloquesCombinacionales\bin_dec
+LICENSE=WebPack
+USER_INFO=__0_0_0

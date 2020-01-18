@@ -1,0 +1,8 @@
+V3 3
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/Codigeneric/codigeneric.vhd 2019/08/15.14:35:03 O.87xd
+EN work/codigeneric 1579273562 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/Codigeneric/codigeneric.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873
+AR work/codigeneric/Behavioral 1579273563 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/Codigeneric/codigeneric.vhd \
+      EN work/codigeneric 1579273562

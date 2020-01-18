@@ -1,0 +1,27 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "F:/BloquesCombinacionales/bin_dec/tes_sup_isim_beh.exe" -prj "F:/BloquesCombinacionales/bin_dec/tes_sup_beh.prj" "work.tes_sup" 
+ISim O.87xd (signature 0x2f00eba5)
+Number of CPUs detected in this system: 3
+Turning on mult-threading, number of parallel sub-compilation jobs: 6 
+Determining compilation order of HDL files
+Parsing VHDL file "F:/BloquesCombinacionales/bin_dec/display.vhd" into library work
+Parsing VHDL file "F:/BloquesCombinacionales/bin_dec/bin_dec.vhd" into library work
+Parsing VHDL file "F:/BloquesCombinacionales/bin_dec/superior.vhd" into library work
+Parsing VHDL file "F:/BloquesCombinacionales/bin_dec/tes_sup.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 117128 KB
+Fuse CPU Usage: 312 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_signed
+Compiling architecture behavioral of entity bin_dec [bin_dec_default]
+Compiling architecture behavioral of entity display [display_default]
+Compiling architecture behavioral of entity superior [superior_default]
+Compiling architecture behavior of entity tes_sup
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 11 VHDL Units
+Built simulation executable F:/BloquesCombinacionales/bin_dec/tes_sup_isim_beh.exe
+Fuse Memory Usage: 132152 KB
+Fuse CPU Usage: 421 ms

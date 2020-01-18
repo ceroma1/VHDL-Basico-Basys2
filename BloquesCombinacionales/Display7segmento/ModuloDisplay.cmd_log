@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "F:/BloquesCombinacionales/Display7segmento/ModuloDisplay.xst" -ofn "F:/BloquesCombinacionales/Display7segmento/ModuloDisplay.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-4 ModuloDisplay.ngc ModuloDisplay.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-4 ModuloDisplay.ngc ModuloDisplay.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o ModuloDisplay_map.ncd ModuloDisplay.ngd ModuloDisplay.pcf 
+par -w -intstyle ise -ol high -t 1 ModuloDisplay_map.ncd ModuloDisplay.ncd ModuloDisplay.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ModuloDisplay.twx ModuloDisplay.ncd -o ModuloDisplay.twr ModuloDisplay.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f ModuloDisplay.ut ModuloDisplay.ncd 

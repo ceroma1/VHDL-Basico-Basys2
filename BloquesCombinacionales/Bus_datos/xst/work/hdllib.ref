@@ -1,0 +1,8 @@
+AR display behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/Bus_datos/Display.vhd sub00/vhpl03 1579345947
+EN display NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/Bus_datos/Display.vhd sub00/vhpl02 1579345946
+EN mux_dato NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/Bus_datos/Mux_dato.vhd sub00/vhpl00 1579345944
+EN mux_anodos NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/Bus_datos/Mux_anodos.vhd sub00/vhpl04 1579345948
+EN bus_dato NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/Bus_datos/Bus_dato.vhd sub00/vhpl06 1579345950
+AR mux_dato behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/Bus_datos/Mux_dato.vhd sub00/vhpl01 1579345945
+AR bus_dato behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/Bus_datos/Bus_dato.vhd sub00/vhpl07 1579345951
+AR mux_anodos behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/Bus_datos/Mux_anodos.vhd sub00/vhpl05 1579345949

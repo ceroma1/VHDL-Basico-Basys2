@@ -1,0 +1,6 @@
+AR bin_dec behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/bin_dec/bin_dec.vhd sub00/vhpl01 1579279316
+AR display behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/bin_dec/display.vhd sub00/vhpl03 1579279318
+EN display NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/bin_dec/display.vhd sub00/vhpl02 1579279317
+EN superior NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/bin_dec/superior.vhd sub00/vhpl04 1579279319
+EN bin_dec NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/bin_dec/bin_dec.vhd sub00/vhpl00 1579279315
+AR superior behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/bin_dec/superior.vhd sub00/vhpl05 1579279320

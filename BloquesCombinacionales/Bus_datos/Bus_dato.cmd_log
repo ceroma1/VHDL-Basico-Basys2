@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "F:/BloquesCombinacionales/Bus_datos/Bus_dato.xst" -ofn "F:/BloquesCombinacionales/Bus_datos/Bus_dato.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 Bus_dato.ngc Bus_dato.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Bus_dato_map.ncd Bus_dato.ngd Bus_dato.pcf 
+par -w -intstyle ise -ol high -t 1 Bus_dato_map.ncd Bus_dato.ncd Bus_dato.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Bus_dato.twx Bus_dato.ncd -o Bus_dato.twr Bus_dato.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-5 Bus_dato.ngc Bus_dato.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-5 Bus_dato.ngc Bus_dato.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Bus_dato_map.ncd Bus_dato.ngd Bus_dato.pcf 
+par -w -intstyle ise -ol high -t 1 Bus_dato_map.ncd Bus_dato.ncd Bus_dato.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Bus_dato.twx Bus_dato.ncd -o Bus_dato.twr Bus_dato.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Bus_dato.ut Bus_dato.ncd 

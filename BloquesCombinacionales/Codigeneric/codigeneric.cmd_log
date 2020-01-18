@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "F:/BloquesCombinacionales/Codigeneric/codigeneric.xst" -ofn "F:/BloquesCombinacionales/Codigeneric/codigeneric.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 codigeneric.ngc codigeneric.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o codigeneric_map.ncd codigeneric.ngd codigeneric.pcf 
+par -w -intstyle ise -ol high -t 1 codigeneric_map.ncd codigeneric.ncd codigeneric.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml codigeneric.twx codigeneric.ncd -o codigeneric.twr codigeneric.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-5 codigeneric.ngc codigeneric.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-5 codigeneric.ngc codigeneric.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o codigeneric_map.ncd codigeneric.ngd codigeneric.pcf 
+par -w -intstyle ise -ol high -t 1 codigeneric_map.ncd codigeneric.ncd codigeneric.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml codigeneric.twx codigeneric.ncd -o codigeneric.twr codigeneric.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f codigeneric.ut codigeneric.ncd 

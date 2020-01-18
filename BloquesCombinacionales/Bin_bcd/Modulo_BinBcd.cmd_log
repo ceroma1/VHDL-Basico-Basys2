@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "F:/BloquesCombinacionales/Bin_bcd/Modulo_BinBcd.xst" -ofn "F:/BloquesCombinacionales/Bin_bcd/Modulo_BinBcd.syr" 
+xst -intstyle ise -ifn "F:/BloquesCombinacionales/Bin_bcd/Modulo_BinBcd.xst" -ofn "F:/BloquesCombinacionales/Bin_bcd/Modulo_BinBcd.syr" 

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "F:/BloquesCombinacionales/DemuxGeneric/Demux.xst" -ofn "F:/BloquesCombinacionales/DemuxGeneric/Demux.syr" 

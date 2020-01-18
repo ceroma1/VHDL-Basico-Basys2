@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map O.87xd on Fri Jan 17 11:13:29 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "salidamenor" LOCATE = SITE "M5" LEVEL 1;
+COMP "a<0>" LOCATE = SITE "P11" LEVEL 1;
+COMP "salidamayor" LOCATE = SITE "P7" LEVEL 1;
+COMP "a<1>" LOCATE = SITE "L3" LEVEL 1;
+COMP "a<2>" LOCATE = SITE "K3" LEVEL 1;
+COMP "a<3>" LOCATE = SITE "B4" LEVEL 1;
+COMP "b<0>" LOCATE = SITE "G3" LEVEL 1;
+COMP "b<1>" LOCATE = SITE "F3" LEVEL 1;
+COMP "b<2>" LOCATE = SITE "E2" LEVEL 1;
+COMP "b<3>" LOCATE = SITE "N3" LEVEL 1;
+COMP "salidaigual" LOCATE = SITE "M11" LEVEL 1;
+SCHEMATIC END;
+

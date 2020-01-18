@@ -1,0 +1,23 @@
+V3 11
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/bin_dec/bin_dec.vhd 2020/01/17.11:41:48 O.87xd
+EN work/bin_dec 1579279315 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/bin_dec/bin_dec.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_SIGNED 1325952874
+AR work/bin_dec/Behavioral 1579279316 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/bin_dec/bin_dec.vhd \
+      EN work/bin_dec 1579279315
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/bin_dec/display.vhd 2013/03/31.04:53:30 O.87xd
+EN work/display 1579279317 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/bin_dec/display.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/display/Behavioral 1579279318 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/bin_dec/display.vhd \
+      EN work/display 1579279317
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/bin_dec/superior.vhd 2017/01/09.06:53:51 O.87xd
+EN work/superior 1579279319 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/bin_dec/superior.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/superior/Behavioral 1579279320 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/bin_dec/superior.vhd \
+      EN work/superior 1579279319 CP bin_dec CP display

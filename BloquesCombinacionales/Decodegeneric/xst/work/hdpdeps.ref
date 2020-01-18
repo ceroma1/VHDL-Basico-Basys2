@@ -1,0 +1,8 @@
+V3 3
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/Decodegeneric/decogeneric.vhd 2019/08/16.09:23:52 O.87xd
+EN work/decogeneric 1579274482 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/Decodegeneric/decogeneric.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/decogeneric/Behavioral 1579274483 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/Decodegeneric/decogeneric.vhd \
+      EN work/decogeneric 1579274482

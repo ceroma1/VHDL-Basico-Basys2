@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "F:/BloquesCombinacionales/MultiplexorGeneric/muxgeneric.xst" -ofn "F:/BloquesCombinacionales/MultiplexorGeneric/muxgeneric.syr" 

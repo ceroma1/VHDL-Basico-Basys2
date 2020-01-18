@@ -1,0 +1,8 @@
+V3 3
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/Bin_bcd/Modulo_BinBcd.vhd 2020/01/17.11:29:05 O.87xd
+EN work/Modulo_BinBcd 1579278551 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/Bin_bcd/Modulo_BinBcd.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/Modulo_BinBcd/Behavioral 1579278552 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/Bin_bcd/Modulo_BinBcd.vhd \
+      EN work/Modulo_BinBcd 1579278551

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "F:/BloquesCombinacionales/Bin_bcd/test_isim_beh.exe" -prj "F:/BloquesCombinacionales/Bin_bcd/test_beh.prj" "work.test" 

@@ -1,0 +1,23 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o F:/BloquesCombinacionales/Decodegeneric/tes_isim_beh.exe -prj F:/BloquesCombinacionales/Decodegeneric/tes_beh.prj work.tes 
+ISim O.87xd (signature 0x2f00eba5)
+Number of CPUs detected in this system: 3
+Turning on mult-threading, number of parallel sub-compilation jobs: 6 
+Determining compilation order of HDL files
+Parsing VHDL file "F:/BloquesCombinacionales/Decodegeneric/decogeneric.vhd" into library work
+Parsing VHDL file "F:/BloquesCombinacionales/Decodegeneric/tes.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 116424 KB
+Fuse CPU Usage: 265 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity decogeneric [\decogeneric(3)\]
+Compiling architecture behavior of entity tes
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 VHDL Units
+Built simulation executable F:/BloquesCombinacionales/Decodegeneric/tes_isim_beh.exe
+Fuse Memory Usage: 132472 KB
+Fuse CPU Usage: 374 ms

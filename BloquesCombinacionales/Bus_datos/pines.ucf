@@ -1,0 +1,25 @@
+NET "DatoB<3>" LOC = "N3";  # Bank = 2, Signal name = SW7
+NET "DatoB<2>" LOC = "E2";  # Bank = 3, Signal name = SW6
+NET "DatoB<1>" LOC = "F3";  # Bank = 3, Signal name = SW5
+NET "DatoB<0>" LOC = "G3";  # Bank = 3, Signal name = SW4
+NET "DatoA<3>" LOC = "B4";  # Bank = 3, Signal name = SW3
+NET "DatoA<2>" LOC = "K3";  # Bank = 3, Signal name = SW2
+NET "DatoA<1>" LOC = "L3";  # Bank = 3, Signal name = SW1
+NET "DatoA<0>" LOC = "P11";  # Bank = 2, Signal name = SW0
+
+NET "segmento<0>" LOC = "L14"; # Bank = 1, Signal name = CA
+NET "segmento<1>" LOC = "H12"; # Bank = 1, Signal name = CB
+NET "segmento<2>" LOC = "N14"; # Bank = 1, Signal name = CC
+NET "segmento<3>" LOC = "N11"; # Bank = 2, Signal name = CD
+NET "segmento<4>" LOC = "P12"; # Bank = 2, Signal name = CE
+NET "segmento<5>" LOC = "L13"; # Bank = 1, Signal name = CF
+NET "segmento<6>" LOC = "M12"; # Bank = 1, Signal name = CG
+
+NET "anodo<3>" LOC = "K14"; # Bank = 1, Signal name = AN3
+NET "anodo<2>" LOC = "M13"; # Bank = 1, Signal name = AN2
+NET "anodo<1>" LOC = "J12"; # Bank = 1, Signal name = AN1
+NET "anodo<0>" LOC = "F12"; # Bank = 1, Signal name = AN0
+
+NET "Sel_display<1>" LOC = "M4";  # Bank = 0, Signal name = BTN2
+NET "Sel_display<0>" LOC = "C11"; # Bank = 2, Signal name = BTN1
+NET "Sel_dato" LOC = "G12"; # Bank = 0, Signal name = BTN0 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "F:/BloquesCombinacionales/MultiplexorGeneric/tes_isim_beh.exe" -prj "F:/BloquesCombinacionales/MultiplexorGeneric/tes_beh.prj" "work.tes" 

@@ -1,0 +1,8 @@
+V3 3
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/DemuxGeneric/Demux.vhd 2019/08/28.15:10:08 O.87xd
+EN work/Demux 1579276872 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/DemuxGeneric/Demux.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/Demux/Behavioral 1579276873 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesCombinacionales/DemuxGeneric/Demux.vhd \
+      EN work/Demux 1579276872

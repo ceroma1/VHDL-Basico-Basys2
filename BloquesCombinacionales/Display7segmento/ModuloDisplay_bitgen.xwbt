@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\BloquesCombinacionales\Display7segmento\ModuloDisplay.ncd
+OUTFILE=F:\BloquesCombinacionales\Display7segmento\ModuloDisplay.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=F:\BloquesCombinacionales\Display7segmento
+LICENSE=WebPack
+USER_INFO=__0_0_0

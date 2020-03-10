@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "F:/BloquesAritmeticos/SumadorRestador/Tes_isim_beh.exe" -prj "F:/BloquesAritmeticos/SumadorRestador/Tes_beh.prj" "work.Tes" 

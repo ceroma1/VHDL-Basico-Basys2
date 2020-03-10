@@ -1,0 +1,44 @@
+V3 23
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/complemento.vhd 2020/01/12.23:38:47 O.87xd
+EN work/complemento 1580894593 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/complemento.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/complemento/Behavioral 1580894594 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/complemento.vhd \
+      EN work/complemento 1580894593 CP Icxor
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/icxor.vhd 2020/01/12.23:38:47 O.87xd
+EN work/Icxor 1580894591 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/icxor.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/Icxor/Behavioral 1580894592 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/icxor.vhd \
+      EN work/Icxor 1580894591
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/presenta.vhd 2020/01/12.23:38:47 O.87xd
+EN work/presenta 1580894597 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/presenta.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_SIGNED 1325952874
+AR work/presenta/Behavioral 1580894598 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/presenta.vhd \
+      EN work/presenta 1580894597
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/sumadorestador.vhd 2020/01/12.23:38:47 O.87xd
+EN work/SumadoRestador 1580894599 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/sumadorestador.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/SumadoRestador/Behavioral 1580894600 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/sumadorestador.vhd \
+      EN work/SumadoRestador 1580894599 CP complemento CP SumadorN CP presenta
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/sumadorn.vhd 2020/01/12.23:38:47 O.87xd
+EN work/SumadorN 1580894595 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/sumadorn.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/SumadorN/Behavioral 1580894596 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/sumadorn.vhd \
+      EN work/SumadorN 1580894595 CP SumaMedia
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/sumamedia.vhd 2020/01/12.23:38:47 O.87xd
+EN work/SumaMedia 1580894589 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/sumamedia.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/SumaMedia/Behavioral 1580894590 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/sumamedia.vhd \
+      EN work/SumaMedia 1580894589

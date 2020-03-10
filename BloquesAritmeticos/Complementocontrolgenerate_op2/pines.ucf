@@ -1,0 +1,11 @@
+NET "comple<3>" LOC = "P6" ; #  name = LD3
+NET "comple<2>" LOC = "P7" ; #  name = LD2
+NET "comple<1>" LOC = "M11"; #  name = LD1
+NET "comple<0>" LOC = "M5" ; #  name = LD0
+
+NET "a<3>" LOC = "B4";  # name = SW3
+NET "a<2>" LOC = "K3";  # name = SW2
+NET "a<1>" LOC = "L3";  # name = SW1
+NET "a<0>" LOC = "P11"; # name = SW0
+
+NET "selec" LOC = "G12";# name = BTN0

@@ -1,0 +1,324 @@
+Release 13.4 - xst O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: multiplica4x3.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "multiplica4x3.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "multiplica4x3"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : multiplica4x3
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "//vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/sumamedia.vhd" in Library work.
+Entity <SumaMedia> compiled.
+Entity <SumaMedia> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "//vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/sumaparalela.vhd" in Library work.
+Entity <SumaParalela> compiled.
+Entity <SumaParalela> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "//vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/multiplica4x3.vhd" in Library work.
+Entity <multiplica4x3> compiled.
+Entity <multiplica4x3> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <multiplica4x3> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <SumaParalela> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <SumaMedia> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <multiplica4x3> in library <work> (Architecture <Behavioral>).
+Entity <multiplica4x3> analyzed. Unit <multiplica4x3> generated.
+
+Analyzing Entity <SumaParalela> in library <work> (Architecture <Behavioral>).
+Entity <SumaParalela> analyzed. Unit <SumaParalela> generated.
+
+Analyzing Entity <SumaMedia> in library <work> (Architecture <Behavioral>).
+Entity <SumaMedia> analyzed. Unit <SumaMedia> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <SumaMedia>.
+    Related source file is "//vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/sumamedia.vhd".
+    Found 1-bit xor2 for signal <suma>.
+    Found 1-bit xor2 for signal <cout$xor0000> created at line 17.
+Unit <SumaMedia> synthesized.
+
+
+Synthesizing Unit <SumaParalela>.
+    Related source file is "//vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/sumaparalela.vhd".
+Unit <SumaParalela> synthesized.
+
+
+Synthesizing Unit <multiplica4x3>.
+    Related source file is "//vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/multiplica4x3.vhd".
+Unit <multiplica4x3> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 24
+ 1-bit xor2                                            : 24
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 24
+ 1-bit xor2                                            : 24
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <multiplica4x3> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block multiplica4x3, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : multiplica4x3.ngr
+Top Level Output File Name         : multiplica4x3
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 16
+
+Cell Usage :
+# BELS                             : 29
+#      LUT2                        : 7
+#      LUT3                        : 2
+#      LUT4                        : 20
+# IO Buffers                       : 16
+#      IBUF                        : 8
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                       17  out of    960     1%  
+ Number of 4 input LUTs:                 29  out of   1920     1%  
+ Number of IOs:                          16
+ Number of bonded IOBs:                  16  out of     83    19%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 15.294ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 604 / 8
+-------------------------------------------------------------------------
+Delay:               15.294ns (Levels of Logic = 10)
+  Source:            DatA<1> (PAD)
+  Destination:       Multi<7> (PAD)
+
+  Data Path: DatA<1> to Multi<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   1.218   0.883  DatA_1_IBUF (DatA_1_IBUF)
+     LUT2:I0->O            2   0.704   0.622  sg2_1_and00001 (sg2<1>)
+     LUT4:I0->O            3   0.704   0.566  u0/u1/cout1 (u0/sg2)
+     LUT4:I2->O            3   0.704   0.706  u0/u2/Mxor_suma_Result1 (sgm<2>)
+     LUT4:I0->O            2   0.704   0.451  u1/u1/cout1 (u1/sg2)
+     LUT4:I3->O            2   0.704   0.451  u1/u2/cout1 (u1/sg3)
+     LUT4:I3->O            2   0.704   0.622  u1/u3/Mxor_suma_Result1 (sgm1<3>)
+     LUT4:I0->O            2   0.704   0.451  u2/u2/cout1 (u2/sg3)
+     LUT4:I3->O            1   0.704   0.420  u2/u3/cout1 (Multi_7_OBUF)
+     OBUF:I->O                 3.272          Multi_7_OBUF (Multi<7>)
+    ----------------------------------------
+    Total                     15.294ns (10.122ns logic, 5.172ns route)
+                                       (66.2% logic, 33.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.38 secs
+ 
+--> 
+
+Total memory usage is 202180 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

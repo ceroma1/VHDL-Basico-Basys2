@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "F:/BloquesAritmeticos/Sumador4bits/SumaParalela.xst" -ofn "F:/BloquesAritmeticos/Sumador4bits/SumaParalela.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 SumaParalela.ngc SumaParalela.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o SumaParalela_map.ncd SumaParalela.ngd SumaParalela.pcf 
+par -w -intstyle ise -ol high -t 1 SumaParalela_map.ncd SumaParalela.ncd SumaParalela.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SumaParalela.twx SumaParalela.ncd -o SumaParalela.twr SumaParalela.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-5 SumaParalela.ngc SumaParalela.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-5 SumaParalela.ngc SumaParalela.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o SumaParalela_map.ncd SumaParalela.ngd SumaParalela.pcf 
+par -w -intstyle ise -ol high -t 1 SumaParalela_map.ncd SumaParalela.ncd SumaParalela.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SumaParalela.twx SumaParalela.ncd -o SumaParalela.twr SumaParalela.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SumaParalela.ut SumaParalela.ncd 
+xst -intstyle ise -ifn "F:/BloquesAritmeticos/Sumador4bits/SumaParalela.xst" -ofn "F:/BloquesAritmeticos/Sumador4bits/SumaParalela.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-5 SumaParalela.ngc SumaParalela.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o SumaParalela_map.ncd SumaParalela.ngd SumaParalela.pcf 
+par -w -intstyle ise -ol high -t 1 SumaParalela_map.ncd SumaParalela.ncd SumaParalela.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SumaParalela.twx SumaParalela.ncd -o SumaParalela.twr SumaParalela.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SumaParalela.ut SumaParalela.ncd 

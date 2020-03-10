@@ -1,0 +1,4 @@
+vhdl work "carrylookahead.vhd"
+vhdl work "bitfulladder1.vhd"
+vhdl work "topadditindspeed.vhd"
+vhdl work "Tes.vhd"

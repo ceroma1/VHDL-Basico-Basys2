@@ -1,0 +1,6 @@
+vhdl work "sumamedia.vhd"
+vhdl work "icxor.vhd"
+vhdl work "sumadorn.vhd"
+vhdl work "presenta.vhd"
+vhdl work "complemento.vhd"
+vhdl work "sumadorestador.vhd"

@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "F:/BloquesAritmeticos/SumadorRestador/SumadoRestador.xst" -ofn "F:/BloquesAritmeticos/SumadorRestador/SumadoRestador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-4 SumadoRestador.ngc SumadoRestador.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-4 SumadoRestador.ngc SumadoRestador.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o SumadoRestador_map.ncd SumadoRestador.ngd SumadoRestador.pcf 
+par -w -intstyle ise -ol high -t 1 SumadoRestador_map.ncd SumadoRestador.ncd SumadoRestador.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SumadoRestador.twx SumadoRestador.ncd -o SumadoRestador.twr SumadoRestador.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SumadoRestador.ut SumadoRestador.ncd 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\BloquesAritmeticos\sumadorcompleto\SumaMedia.ncd
+OUTFILE=F:\BloquesAritmeticos\sumadorcompleto\SumaMedia.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=F:\BloquesAritmeticos\sumadorcompleto
+LICENSE=WebPack
+USER_INFO=__0_0_0

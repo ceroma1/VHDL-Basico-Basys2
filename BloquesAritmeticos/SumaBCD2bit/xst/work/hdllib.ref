@@ -1,0 +1,14 @@
+AR sumamedia1 behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumaMedia1.vhd sub00/vhpl03 1583865503
+EN sumamedia NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumaMedia.vhd sub00/vhpl00 1583865500
+AR control behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/control.vhd sub00/vhpl07 1583865507
+AR sumaparalela1 behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumaParalela1.vhd sub00/vhpl09 1583865509
+AR sumbcd1bit behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumBCD1Bit.vhd sub00/vhpl11 1583865511
+AR sumabcd2bit behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumaBCD2bit.vhd sub00/vhpl13 1583865513
+AR sumamedia behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumaMedia.vhd sub00/vhpl01 1583865501
+EN sumamedia1 NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumaMedia1.vhd sub00/vhpl02 1583865502
+EN sumaparalela1 NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumaParalela1.vhd sub00/vhpl08 1583865508
+EN sumabcd2bit NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumaBCD2bit.vhd sub00/vhpl12 1583865512
+EN control NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/control.vhd sub00/vhpl06 1583865506
+EN sumaparalela NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumaParalela.vhd sub00/vhpl04 1583865504
+EN sumbcd1bit NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumBCD1Bit.vhd sub00/vhpl10 1583865510
+AR sumaparalela behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumaParalela.vhd sub00/vhpl05 1583865505

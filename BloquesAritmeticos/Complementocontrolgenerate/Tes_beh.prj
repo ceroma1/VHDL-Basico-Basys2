@@ -1,0 +1,3 @@
+vhdl work "icxor.vhd"
+vhdl work "complemento.vhd"
+vhdl work "Tes.vhd"

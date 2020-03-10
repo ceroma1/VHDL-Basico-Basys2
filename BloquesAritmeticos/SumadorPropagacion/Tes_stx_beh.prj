@@ -1,0 +1,4 @@
+vhdl isim_temp "carrylookahead.vhd"
+vhdl isim_temp "bitfulladder1.vhd"
+vhdl isim_temp "topadditindspeed.vhd"
+vhdl isim_temp "Tes.vhd"

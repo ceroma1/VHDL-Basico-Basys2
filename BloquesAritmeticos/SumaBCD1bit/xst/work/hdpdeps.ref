@@ -1,0 +1,51 @@
+V3 27
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/control.vhd 2020/01/13.21:13:23 O.87xd
+EN work/control 1580900039 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/control.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/control/Behavioral 1580900040 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/control.vhd \
+      EN work/control 1580900039
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/modulodisplay.vhd 2020/01/13.21:13:24 O.87xd
+EN work/ModuloDisplay 1580900043 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/modulodisplay.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/ModuloDisplay/Behavioral 1580900044 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/modulodisplay.vhd \
+      EN work/ModuloDisplay 1580900043
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/sumabcd1bit.vhd 2020/01/13.21:13:24 O.87xd
+EN work/SumBCD1Bit 1580900045 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/sumabcd1bit.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/SumBCD1Bit/Behavioral 1580900046 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/sumabcd1bit.vhd \
+      EN work/SumBCD1Bit 1580900045 CP SumaParalela CP control CP SumaParalela1 \
+      CP ModuloDisplay
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/sumamedia.vhd 2020/01/13.21:13:23 O.87xd
+EN work/SumaMedia 1580900033 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/sumamedia.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/SumaMedia/Behavioral 1580900034 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/sumamedia.vhd \
+      EN work/SumaMedia 1580900033
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/sumamedia1.vhd 2020/01/13.21:13:23 O.87xd
+EN work/SumaMedia1 1580900035 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/sumamedia1.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/SumaMedia1/Behavioral 1580900036 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/sumamedia1.vhd \
+      EN work/SumaMedia1 1580900035
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/sumaparalela.vhd 2020/01/13.21:13:23 O.87xd
+EN work/SumaParalela 1580900037 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/sumaparalela.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/SumaParalela/Behavioral 1580900038 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/sumaparalela.vhd \
+      EN work/SumaParalela 1580900037 CP Sumamedia
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/sumaparalela1.vhd 2020/01/13.21:13:23 O.87xd
+EN work/SumaParalela1 1580900041 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/sumaparalela1.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/SumaParalela1/Behavioral 1580900042 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD1bit/sumaparalela1.vhd \
+      EN work/SumaParalela1 1580900041 CP Sumamedia CP Sumamedia1

@@ -1,0 +1,15 @@
+V3 7
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Sumador4bits/SumaMedia.vhd 2012/05/11.12:01:24 O.87xd
+EN work/SumaMedia 1583860549 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Sumador4bits/SumaMedia.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/SumaMedia/Behavioral 1583860550 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Sumador4bits/SumaMedia.vhd \
+      EN work/SumaMedia 1583860549
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Sumador4bits/SumaParalela.vhd 2016/04/13.04:00:51 O.87xd
+EN work/SumaParalela 1583860551 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Sumador4bits/SumaParalela.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/SumaParalela/Behavioral 1583860552 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Sumador4bits/SumaParalela.vhd \
+      EN work/SumaParalela 1583860551 CP Sumamedia

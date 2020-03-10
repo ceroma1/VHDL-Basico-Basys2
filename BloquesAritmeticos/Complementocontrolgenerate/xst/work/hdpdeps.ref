@@ -1,0 +1,15 @@
+V3 7
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Complementocontrolgenerate/complemento.vhd 2020/01/12.22:13:11 O.87xd
+EN work/complemento 1580893541 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Complementocontrolgenerate/complemento.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/complemento/Behavioral 1580893542 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Complementocontrolgenerate/complemento.vhd \
+      EN work/complemento 1580893541 CP Icxor
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Complementocontrolgenerate/icxor.vhd 2020/01/12.22:13:11 O.87xd
+EN work/Icxor 1580893539 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Complementocontrolgenerate/icxor.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/Icxor/Behavioral 1580893540 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Complementocontrolgenerate/icxor.vhd \
+      EN work/Icxor 1580893539

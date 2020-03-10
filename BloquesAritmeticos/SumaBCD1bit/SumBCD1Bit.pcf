@@ -1,0 +1,32 @@
+//! **************************************************************************
+// Written by: Map O.87xd on Wed Feb 05 05:59:00 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "segmentos<0>" LOCATE = SITE "L14" LEVEL 1;
+COMP "segmentos<1>" LOCATE = SITE "H12" LEVEL 1;
+COMP "segmentos<2>" LOCATE = SITE "N14" LEVEL 1;
+COMP "segmentos<3>" LOCATE = SITE "N11" LEVEL 1;
+COMP "segmentos<4>" LOCATE = SITE "P12" LEVEL 1;
+COMP "segmentos<5>" LOCATE = SITE "L13" LEVEL 1;
+COMP "segmentos<6>" LOCATE = SITE "M12" LEVEL 1;
+COMP "Fcarry" LOCATE = SITE "G1" LEVEL 1;
+COMP "Fsuma<0>" LOCATE = SITE "M5" LEVEL 1;
+COMP "Fsuma<1>" LOCATE = SITE "M11" LEVEL 1;
+COMP "Fsuma<2>" LOCATE = SITE "P7" LEVEL 1;
+COMP "Fsuma<3>" LOCATE = SITE "P6" LEVEL 1;
+COMP "Cin" LOCATE = SITE "G12" LEVEL 1;
+COMP "NumA<0>" LOCATE = SITE "P11" LEVEL 1;
+COMP "NumA<1>" LOCATE = SITE "L3" LEVEL 1;
+COMP "NumA<2>" LOCATE = SITE "K3" LEVEL 1;
+COMP "NumA<3>" LOCATE = SITE "B4" LEVEL 1;
+COMP "anodos<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "NumB<0>" LOCATE = SITE "G3" LEVEL 1;
+COMP "anodos<1>" LOCATE = SITE "J12" LEVEL 1;
+COMP "NumB<1>" LOCATE = SITE "F3" LEVEL 1;
+COMP "anodos<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "NumB<2>" LOCATE = SITE "E2" LEVEL 1;
+COMP "anodos<3>" LOCATE = SITE "K14" LEVEL 1;
+COMP "NumB<3>" LOCATE = SITE "N3" LEVEL 1;
+SCHEMATIC END;
+

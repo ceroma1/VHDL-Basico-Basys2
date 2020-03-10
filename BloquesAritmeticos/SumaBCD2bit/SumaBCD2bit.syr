@@ -1,0 +1,378 @@
+Release 13.4 - xst O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: SumaBCD2bit.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "SumaBCD2bit.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "SumaBCD2bit"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : SumaBCD2bit
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "//vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumaMedia.vhd" in Library work.
+Entity <SumaMedia> compiled.
+Entity <SumaMedia> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "//vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumaMedia1.vhd" in Library work.
+Entity <SumaMedia1> compiled.
+Entity <SumaMedia1> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "//vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumaParalela.vhd" in Library work.
+Entity <SumaParalela> compiled.
+Entity <SumaParalela> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "//vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/control.vhd" in Library work.
+Entity <control> compiled.
+Entity <control> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "//vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumaParalela1.vhd" in Library work.
+Entity <SumaParalela1> compiled.
+Entity <SumaParalela1> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "//vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumBCD1Bit.vhd" in Library work.
+Entity <SumBCD1Bit> compiled.
+Entity <SumBCD1Bit> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "//vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumaBCD2bit.vhd" in Library work.
+Entity <SumaBCD2bit> compiled.
+Entity <SumaBCD2bit> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <SumaBCD2bit> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <SumBCD1Bit> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <SumaParalela> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <control> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <SumaParalela1> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <SumaMedia> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <SumaMedia1> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <SumaBCD2bit> in library <work> (Architecture <Behavioral>).
+Entity <SumaBCD2bit> analyzed. Unit <SumaBCD2bit> generated.
+
+Analyzing Entity <SumBCD1Bit> in library <work> (Architecture <Behavioral>).
+Entity <SumBCD1Bit> analyzed. Unit <SumBCD1Bit> generated.
+
+Analyzing Entity <SumaParalela> in library <work> (Architecture <Behavioral>).
+Entity <SumaParalela> analyzed. Unit <SumaParalela> generated.
+
+Analyzing Entity <SumaMedia> in library <work> (Architecture <Behavioral>).
+Entity <SumaMedia> analyzed. Unit <SumaMedia> generated.
+
+Analyzing Entity <control> in library <work> (Architecture <Behavioral>).
+Entity <control> analyzed. Unit <control> generated.
+
+Analyzing Entity <SumaParalela1> in library <work> (Architecture <Behavioral>).
+Entity <SumaParalela1> analyzed. Unit <SumaParalela1> generated.
+
+Analyzing Entity <SumaMedia1> in library <work> (Architecture <Behavioral>).
+Entity <SumaMedia1> analyzed. Unit <SumaMedia1> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <control>.
+    Related source file is "//vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/control.vhd".
+Unit <control> synthesized.
+
+
+Synthesizing Unit <SumaMedia>.
+    Related source file is "//vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumaMedia.vhd".
+    Found 1-bit xor2 for signal <suma>.
+    Found 1-bit xor2 for signal <cout$xor0000> created at line 17.
+Unit <SumaMedia> synthesized.
+
+
+Synthesizing Unit <SumaMedia1>.
+    Related source file is "//vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumaMedia1.vhd".
+    Found 1-bit xor2 for signal <suma>.
+Unit <SumaMedia1> synthesized.
+
+
+Synthesizing Unit <SumaParalela>.
+    Related source file is "//vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumaParalela.vhd".
+Unit <SumaParalela> synthesized.
+
+
+Synthesizing Unit <SumaParalela1>.
+    Related source file is "//vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumaParalela1.vhd".
+Unit <SumaParalela1> synthesized.
+
+
+Synthesizing Unit <SumBCD1Bit>.
+    Related source file is "//vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumBCD1Bit.vhd".
+Unit <SumBCD1Bit> synthesized.
+
+
+Synthesizing Unit <SumaBCD2bit>.
+    Related source file is "//vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumaBCD2bit/SumaBCD2bit.vhd".
+Unit <SumaBCD2bit> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 30
+ 1-bit xor2                                            : 30
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 30
+ 1-bit xor2                                            : 30
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <SumaBCD2bit> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block SumaBCD2bit, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : SumaBCD2bit.ngr
+Top Level Output File Name         : SumaBCD2bit
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 25
+
+Cell Usage :
+# BELS                             : 23
+#      LUT2                        : 2
+#      LUT3                        : 12
+#      LUT4                        : 9
+# IO Buffers                       : 25
+#      IBUF                        : 16
+#      OBUF                        : 9
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                       13  out of    960     1%  
+ Number of 4 input LUTs:                 23  out of   1920     1%  
+ Number of IOs:                          25
+ Number of bonded IOBs:                  25  out of     83    30%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 14.882ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 536 / 9
+-------------------------------------------------------------------------
+Delay:               14.882ns (Levels of Logic = 11)
+  Source:            UnidadesB<1> (PAD)
+  Destination:       SumaD<3> (PAD)
+
+  Data Path: UnidadesB<1> to SumaD<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.106   0.532  UnidadesB_1_IBUF (UnidadesB_1_IBUF)
+     LUT4:I0->O            4   0.612   0.651  u0/u0/u1/Mxor_suma_Result1 (u0/sg1<1>)
+     LUT4:I0->O            1   0.612   0.360  u0/u1/fsal_SW2 (N21)
+     LUT4:I3->O            5   0.612   0.607  u0/u1/fsal (sg1)
+     LUT3:I1->O            4   0.612   0.568  u1/u0/u0/cout1 (u1/u0/sg1)
+     LUT3:I1->O            2   0.612   0.410  u1/u0/u1/cout1 (u1/u0/sg2)
+     LUT3:I2->O            3   0.612   0.603  u1/u0/u2/Mxor_suma_Result1 (u1/sg1<2>)
+     LUT4:I0->O            1   0.612   0.360  u1/u1/fsal_SW2 (N19)
+     LUT4:I3->O            4   0.612   0.651  u1/u1/fsal (Carry_OBUF)
+     LUT4:I0->O            1   0.612   0.357  u1/u2/u3/Mxor_suma_Result (SumaD_3_OBUF)
+     OBUF:I->O                 3.169          SumaD_3_OBUF (SumaD<3>)
+    ----------------------------------------
+    Total                     14.882ns (9.783ns logic, 5.099ns route)
+                                       (65.7% logic, 34.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.36 secs
+ 
+--> 
+
+Total memory usage is 203268 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

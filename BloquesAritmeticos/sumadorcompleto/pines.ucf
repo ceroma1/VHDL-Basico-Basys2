@@ -1,0 +1,6 @@
+NET "cout" LOC = "M11" ; # Bank = 2, Signal name = LD1
+NET "suma" LOC = "M5" ;  # Bank = 2, Signal name = LD0
+
+NET "a" LOC = "K3";  # Bank = 3, Signal name = SW2
+NET "b" LOC = "L3";  # Bank = 3, Signal name = SW1
+NET "cin" LOC = "P11";  # Bank = 2, Signal name = SW0

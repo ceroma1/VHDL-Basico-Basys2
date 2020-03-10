@@ -1,0 +1,6 @@
+EN sumamedia NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/sumamedia.vhd sub00/vhpl00 1583864452
+AR sumamedia behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/sumamedia.vhd sub00/vhpl01 1583864453
+AR multiplica4x3 behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/multiplica4x3.vhd sub00/vhpl05 1583864457
+EN sumaparalela NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/sumaparalela.vhd sub00/vhpl02 1583864454
+AR sumaparalela behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/sumaparalela.vhd sub00/vhpl03 1583864455
+EN multiplica4x3 NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/multiplica4x3.vhd sub00/vhpl04 1583864456

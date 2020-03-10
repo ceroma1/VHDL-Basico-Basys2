@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\BloquesAritmeticos\Complementocontrolgenerate_op2\complemento.ncd
+OUTFILE=F:\BloquesAritmeticos\Complementocontrolgenerate_op2\complemento.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=F:\BloquesAritmeticos\Complementocontrolgenerate_op2
+LICENSE=WebPack
+USER_INFO=__0_0_0

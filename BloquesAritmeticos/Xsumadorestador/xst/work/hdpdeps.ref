@@ -1,0 +1,36 @@
+V3 19
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Xsumadorestador/complemento.vhd 2012/05/14.13:28:20 O.87xd
+EN work/complemento 1583863996 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Xsumadorestador/complemento.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/complemento/Behavioral 1583863997 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Xsumadorestador/complemento.vhd \
+      EN work/complemento 1583863996 CP Icxor
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Xsumadorestador/Icxor.vhd 2012/05/11.20:48:02 O.87xd
+EN work/Icxor 1583863994 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Xsumadorestador/Icxor.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/Icxor/Behavioral 1583863995 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Xsumadorestador/Icxor.vhd \
+      EN work/Icxor 1583863994
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Xsumadorestador/SumaMedia.vhd 2012/05/11.12:01:24 O.87xd
+EN work/SumaMedia 1583863992 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Xsumadorestador/SumaMedia.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/SumaMedia/Behavioral 1583863993 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Xsumadorestador/SumaMedia.vhd \
+      EN work/SumaMedia 1583863992
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Xsumadorestador/sumaresta.vhd 2019/11/26.11:46:23 O.87xd
+EN work/sumaresta 1583864000 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Xsumadorestador/sumaresta.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/sumaresta/Behavioral 1583864001 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Xsumadorestador/sumaresta.vhd \
+      EN work/sumaresta 1583864000 CP complemento CP sumasigno
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Xsumadorestador/sumasigno.vhd 2019/11/26.11:45:47 O.87xd
+EN work/sumasigno 1583863998 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Xsumadorestador/sumasigno.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/sumasigno/Behavioral 1583863999 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Xsumadorestador/sumasigno.vhd \
+      EN work/sumasigno 1583863998 CP SumaMedia

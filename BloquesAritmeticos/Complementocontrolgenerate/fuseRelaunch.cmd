@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "F:/BloquesAritmeticos/Complementocontrolgenerate/Tes_isim_beh.exe" -prj "F:/BloquesAritmeticos/Complementocontrolgenerate/Tes_beh.prj" "work.Tes" 

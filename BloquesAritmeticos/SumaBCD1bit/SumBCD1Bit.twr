@@ -1,0 +1,162 @@
+--------------------------------------------------------------------------------
+Release 13.4 Trace  (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml SumBCD1Bit.twx SumBCD1Bit.ncd -o SumBCD1Bit.twr
+SumBCD1Bit.pcf -ucf pines.ucf
+
+Design file:              SumBCD1Bit.ncd
+Physical constraint file: SumBCD1Bit.pcf
+Device,package,speed:     xc3s100e,cp132,-4 (PRODUCTION 1.27 2012-01-07)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Cin            |Fcarry         |   13.310|
+Cin            |Fsuma<0>       |    7.574|
+Cin            |Fsuma<1>       |   15.507|
+Cin            |Fsuma<2>       |   14.168|
+Cin            |Fsuma<3>       |   14.322|
+Cin            |segmentos<0>   |   16.152|
+Cin            |segmentos<1>   |   16.664|
+Cin            |segmentos<2>   |   16.949|
+Cin            |segmentos<3>   |   16.609|
+Cin            |segmentos<4>   |   16.409|
+Cin            |segmentos<5>   |   15.161|
+Cin            |segmentos<6>   |   17.018|
+NumA<0>        |Fcarry         |   13.032|
+NumA<0>        |Fsuma<0>       |    7.295|
+NumA<0>        |Fsuma<1>       |   15.229|
+NumA<0>        |Fsuma<2>       |   13.890|
+NumA<0>        |Fsuma<3>       |   14.044|
+NumA<0>        |segmentos<0>   |   15.874|
+NumA<0>        |segmentos<1>   |   16.386|
+NumA<0>        |segmentos<2>   |   16.671|
+NumA<0>        |segmentos<3>   |   16.331|
+NumA<0>        |segmentos<4>   |   16.131|
+NumA<0>        |segmentos<5>   |   14.883|
+NumA<0>        |segmentos<6>   |   16.740|
+NumA<1>        |Fcarry         |   13.031|
+NumA<1>        |Fsuma<1>       |   15.228|
+NumA<1>        |Fsuma<2>       |   13.889|
+NumA<1>        |Fsuma<3>       |   14.043|
+NumA<1>        |segmentos<0>   |   15.873|
+NumA<1>        |segmentos<1>   |   16.385|
+NumA<1>        |segmentos<2>   |   16.670|
+NumA<1>        |segmentos<3>   |   16.330|
+NumA<1>        |segmentos<4>   |   16.130|
+NumA<1>        |segmentos<5>   |   14.882|
+NumA<1>        |segmentos<6>   |   16.739|
+NumA<2>        |Fcarry         |   10.453|
+NumA<2>        |Fsuma<1>       |   12.650|
+NumA<2>        |Fsuma<2>       |   11.311|
+NumA<2>        |Fsuma<3>       |   11.465|
+NumA<2>        |segmentos<0>   |   13.295|
+NumA<2>        |segmentos<1>   |   13.807|
+NumA<2>        |segmentos<2>   |   14.092|
+NumA<2>        |segmentos<3>   |   13.752|
+NumA<2>        |segmentos<4>   |   13.552|
+NumA<2>        |segmentos<5>   |   12.304|
+NumA<2>        |segmentos<6>   |   14.161|
+NumA<3>        |Fcarry         |    9.943|
+NumA<3>        |Fsuma<1>       |   12.140|
+NumA<3>        |Fsuma<2>       |   10.801|
+NumA<3>        |Fsuma<3>       |   10.955|
+NumA<3>        |segmentos<0>   |   12.785|
+NumA<3>        |segmentos<1>   |   13.297|
+NumA<3>        |segmentos<2>   |   13.582|
+NumA<3>        |segmentos<3>   |   13.242|
+NumA<3>        |segmentos<4>   |   13.042|
+NumA<3>        |segmentos<5>   |   11.794|
+NumA<3>        |segmentos<6>   |   13.651|
+NumB<0>        |Fcarry         |   13.189|
+NumB<0>        |Fsuma<0>       |    7.999|
+NumB<0>        |Fsuma<1>       |   15.386|
+NumB<0>        |Fsuma<2>       |   14.047|
+NumB<0>        |Fsuma<3>       |   14.201|
+NumB<0>        |segmentos<0>   |   16.031|
+NumB<0>        |segmentos<1>   |   16.543|
+NumB<0>        |segmentos<2>   |   16.828|
+NumB<0>        |segmentos<3>   |   16.488|
+NumB<0>        |segmentos<4>   |   16.288|
+NumB<0>        |segmentos<5>   |   15.040|
+NumB<0>        |segmentos<6>   |   16.897|
+NumB<1>        |Fcarry         |   12.725|
+NumB<1>        |Fsuma<1>       |   14.922|
+NumB<1>        |Fsuma<2>       |   13.583|
+NumB<1>        |Fsuma<3>       |   13.737|
+NumB<1>        |segmentos<0>   |   15.567|
+NumB<1>        |segmentos<1>   |   16.079|
+NumB<1>        |segmentos<2>   |   16.364|
+NumB<1>        |segmentos<3>   |   16.024|
+NumB<1>        |segmentos<4>   |   15.824|
+NumB<1>        |segmentos<5>   |   14.576|
+NumB<1>        |segmentos<6>   |   16.433|
+NumB<2>        |Fcarry         |   10.315|
+NumB<2>        |Fsuma<1>       |   12.512|
+NumB<2>        |Fsuma<2>       |   11.173|
+NumB<2>        |Fsuma<3>       |   11.327|
+NumB<2>        |segmentos<0>   |   13.157|
+NumB<2>        |segmentos<1>   |   13.669|
+NumB<2>        |segmentos<2>   |   13.954|
+NumB<2>        |segmentos<3>   |   13.614|
+NumB<2>        |segmentos<4>   |   13.414|
+NumB<2>        |segmentos<5>   |   12.166|
+NumB<2>        |segmentos<6>   |   14.023|
+NumB<3>        |Fcarry         |    9.907|
+NumB<3>        |Fsuma<1>       |   12.104|
+NumB<3>        |Fsuma<2>       |   10.765|
+NumB<3>        |Fsuma<3>       |   10.919|
+NumB<3>        |segmentos<0>   |   12.749|
+NumB<3>        |segmentos<1>   |   13.261|
+NumB<3>        |segmentos<2>   |   13.546|
+NumB<3>        |segmentos<3>   |   13.206|
+NumB<3>        |segmentos<4>   |   13.006|
+NumB<3>        |segmentos<5>   |   11.758|
+NumB<3>        |segmentos<6>   |   13.615|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Feb 05 05:59:13 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 123 MB
+
+
+

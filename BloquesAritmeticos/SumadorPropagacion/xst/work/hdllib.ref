@@ -1,0 +1,6 @@
+EN carrylookahead NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorPropagacion/carrylookahead.vhd sub00/vhpl02 1580833739
+EN topadditionspeed NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorPropagacion/topadditindspeed.vhd sub00/vhpl04 1580833741
+EN bitfulladder1 NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorPropagacion/bitfulladder1.vhd sub00/vhpl00 1580833737
+AR topadditionspeed behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorPropagacion/topadditindspeed.vhd sub00/vhpl05 1580833742
+AR carrylookahead behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorPropagacion/carrylookahead.vhd sub00/vhpl03 1580833740
+AR bitfulladder1 behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorPropagacion/bitfulladder1.vhd sub00/vhpl01 1580833738

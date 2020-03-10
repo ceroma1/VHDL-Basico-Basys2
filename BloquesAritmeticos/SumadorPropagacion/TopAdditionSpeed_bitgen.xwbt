@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\BloquesAritmeticos\SumadorPropagacion\TopAdditionSpeed.ncd
+OUTFILE=F:\BloquesAritmeticos\SumadorPropagacion\TopAdditionSpeed.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=F:\BloquesAritmeticos\SumadorPropagacion
+LICENSE=WebPack
+USER_INFO=__0_0_0

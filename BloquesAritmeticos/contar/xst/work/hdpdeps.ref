@@ -1,0 +1,23 @@
+V3 11
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/contar/cuenta.vhd 2020/01/13.23:47:44 O.87xd
+EN work/cuenta 1583864652 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/contar/cuenta.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/cuenta/Behavioral 1583864653 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/contar/cuenta.vhd \
+      EN work/cuenta 1583864652
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/contar/modulodisplay.vhd 2020/01/13.23:47:44 O.87xd
+EN work/ModuloDisplay 1583864654 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/contar/modulodisplay.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/ModuloDisplay/Behavioral 1583864655 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/contar/modulodisplay.vhd \
+      EN work/ModuloDisplay 1583864654
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/contar/superior.vhd 2020/01/13.23:47:44 O.87xd
+EN work/superior 1583864656 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/contar/superior.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/superior/Behavioral 1583864657 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/contar/superior.vhd \
+      EN work/superior 1583864656 CP cuenta CP Modulodisplay

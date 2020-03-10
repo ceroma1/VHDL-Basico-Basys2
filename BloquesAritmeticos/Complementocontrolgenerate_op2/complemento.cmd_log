@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "F:/BloquesAritmeticos/Complementocontrolgenerate_op2/complemento.xst" -ofn "F:/BloquesAritmeticos/Complementocontrolgenerate_op2/complemento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-5 complemento.ngc complemento.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o complemento_map.ncd complemento.ngd complemento.pcf 
+par -w -intstyle ise -ol high -t 1 complemento_map.ncd complemento.ncd complemento.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml complemento.twx complemento.ncd -o complemento.twr complemento.pcf -ucf pines.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-5 complemento.ngc complemento.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-5 complemento.ngc complemento.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o complemento_map.ncd complemento.ngd complemento.pcf 
+par -w -intstyle ise -ol high -t 1 complemento_map.ncd complemento.ncd complemento.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml complemento.twx complemento.ncd -o complemento.twr complemento.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f complemento.ut complemento.ncd 
+xst -intstyle ise -ifn "F:/BloquesAritmeticos/Complementocontrolgenerate_op2/complemento.xst" -ofn "F:/BloquesAritmeticos/Complementocontrolgenerate_op2/complemento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-5 complemento.ngc complemento.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o complemento_map.ncd complemento.ngd complemento.pcf 
+par -w -intstyle ise -ol high -t 1 complemento_map.ncd complemento.ncd complemento.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml complemento.twx complemento.ncd -o complemento.twr complemento.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f complemento.ut complemento.ncd 

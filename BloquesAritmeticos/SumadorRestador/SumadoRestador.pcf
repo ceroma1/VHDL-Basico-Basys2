@@ -1,0 +1,22 @@
+//! **************************************************************************
+// Written by: Map O.87xd on Wed Feb 05 04:25:40 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "DatA<0>" LOCATE = SITE "P11" LEVEL 1;
+COMP "Respuesta<0>" LOCATE = SITE "M5" LEVEL 1;
+COMP "DatA<1>" LOCATE = SITE "L3" LEVEL 1;
+COMP "Respuesta<1>" LOCATE = SITE "M11" LEVEL 1;
+COMP "DatA<2>" LOCATE = SITE "K3" LEVEL 1;
+COMP "Respuesta<2>" LOCATE = SITE "P7" LEVEL 1;
+COMP "DatA<3>" LOCATE = SITE "B4" LEVEL 1;
+COMP "Respuesta<3>" LOCATE = SITE "P6" LEVEL 1;
+COMP "DatB<0>" LOCATE = SITE "G3" LEVEL 1;
+COMP "Respuesta<4>" LOCATE = SITE "N5" LEVEL 1;
+COMP "DatB<1>" LOCATE = SITE "F3" LEVEL 1;
+COMP "Respuesta<5>" LOCATE = SITE "N4" LEVEL 1;
+COMP "Selec" LOCATE = SITE "G12" LEVEL 1;
+COMP "DatB<2>" LOCATE = SITE "E2" LEVEL 1;
+COMP "DatB<3>" LOCATE = SITE "N3" LEVEL 1;
+SCHEMATIC END;
+

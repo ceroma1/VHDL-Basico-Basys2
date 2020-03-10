@@ -1,0 +1,5 @@
+vhdl work "\\vboxsrv\(00)codigos_vhdl_basys2\BloquesAritmeticos\Xsumadorestador\SumaMedia.vhd"
+vhdl work "\\vboxsrv\(00)codigos_vhdl_basys2\BloquesAritmeticos\Xsumadorestador\Icxor.vhd"
+vhdl work "\\vboxsrv\(00)codigos_vhdl_basys2\BloquesAritmeticos\Xsumadorestador\sumasigno.vhd"
+vhdl work "\\vboxsrv\(00)codigos_vhdl_basys2\BloquesAritmeticos\Xsumadorestador\complemento.vhd"
+vhdl work "\\vboxsrv\(00)codigos_vhdl_basys2\BloquesAritmeticos\Xsumadorestador\sumaresta.vhd"

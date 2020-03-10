@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "F:/BloquesAritmeticos/SumaBCD2bit/SumaBCD2bit.xst" -ofn "F:/BloquesAritmeticos/SumaBCD2bit/SumaBCD2bit.syr" 

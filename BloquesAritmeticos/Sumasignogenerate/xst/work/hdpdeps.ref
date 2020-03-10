@@ -1,0 +1,15 @@
+V3 7
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Sumasignogenerate/sumamedia.vhd 2020/01/12.21:16:21 O.87xd
+EN work/SumaMedia 1580832312 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Sumasignogenerate/sumamedia.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/SumaMedia/Behavioral 1580832313 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Sumasignogenerate/sumamedia.vhd \
+      EN work/SumaMedia 1580832312
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Sumasignogenerate/sumasigno.vhd 2020/01/12.21:17:19 O.87xd
+EN work/sumasigno 1580832314 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Sumasignogenerate/sumasigno.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/sumasigno/Behavioral 1580832315 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/Sumasignogenerate/sumasigno.vhd \
+      EN work/sumasigno 1580832314 CP SumaMedia

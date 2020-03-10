@@ -1,0 +1,29 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o F:/BloquesAritmeticos/Xsumadorestador/Tes_isim_beh.exe -prj F:/BloquesAritmeticos/Xsumadorestador/Tes_beh.prj work.Tes 
+ISim O.87xd (signature 0x2f00eba5)
+Number of CPUs detected in this system: 3
+Turning on mult-threading, number of parallel sub-compilation jobs: 6 
+Determining compilation order of HDL files
+Parsing VHDL file "F:/BloquesAritmeticos/Xsumadorestador/SumaMedia.vhd" into library work
+Parsing VHDL file "F:/BloquesAritmeticos/Xsumadorestador/Icxor.vhd" into library work
+Parsing VHDL file "F:/BloquesAritmeticos/Xsumadorestador/sumasigno.vhd" into library work
+Parsing VHDL file "F:/BloquesAritmeticos/Xsumadorestador/complemento.vhd" into library work
+Parsing VHDL file "F:/BloquesAritmeticos/Xsumadorestador/sumaresta.vhd" into library work
+Parsing VHDL file "F:/BloquesAritmeticos/Xsumadorestador/Tes.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 120452 KB
+Fuse CPU Usage: 312 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity Icxor [icxor_default]
+Compiling architecture behavioral of entity complemento [complemento_default]
+Compiling architecture behavioral of entity SumaMedia [sumamedia_default]
+Compiling architecture behavioral of entity sumasigno [sumasigno_default]
+Compiling architecture behavioral of entity sumaresta [sumaresta_default]
+Compiling architecture behavior of entity tes
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 13 VHDL Units
+Built simulation executable F:/BloquesAritmeticos/Xsumadorestador/Tes_isim_beh.exe
+Fuse Memory Usage: 129396 KB
+Fuse CPU Usage: 374 ms

@@ -1,0 +1,8 @@
+Release 13.4 Drc O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Tue Mar 10 13:13:46 2020
+
+drc -z sumaresta.ncd sumaresta.pcf
+
+DRC detected 0 errors and 0 warnings.

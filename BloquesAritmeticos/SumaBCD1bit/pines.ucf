@@ -1,0 +1,29 @@
+NET "anodos<3>" LOC = "K14"; # Bank = 1, Signal name = AN3
+NET "anodos<2>" LOC = "M13"; # Bank = 1, Signal name = AN2
+NET "anodos<1>" LOC = "J12"; # Bank = 1, Signal name = AN1
+NET "anodos<0>" LOC = "F12"; # Bank = 1, Signal name = AN0
+
+NET "fcarry" LOC = "G1" ; # Bank = 3, Signal name = LD7
+NET "fsuma<3>" LOC = "P6" ; # Bank = 2, Signal name = LD3
+NET "fsuma<2>" LOC = "P7" ; # Bank = 3, Signal name = LD2
+NET "fsuma<1>" LOC = "M11" ; # Bank = 2, Signal name = LD1
+NET "fsuma<0>" LOC = "M5" ;  # Bank = 2, Signal name = LD0
+
+NET "numb<3>" LOC = "N3";  # Bank = 2, Signal name = SW7
+NET "numb<2>" LOC = "E2";  # Bank = 3, Signal name = SW6
+NET "numb<1>" LOC = "F3";  # Bank = 3, Signal name = SW5
+NET "numb<0>" LOC = "G3";  # Bank = 3, Signal name = SW4
+NET "numa<3>" LOC = "B4";  # Bank = 3, Signal name = SW3
+NET "numa<2>" LOC = "K3";  # Bank = 3, Signal name = SW2
+NET "numa<1>" LOC = "L3";  # Bank = 3, Signal name = SW1
+NET "numa<0>" LOC = "P11";  # Bank = 2, Signal name = SW0
+
+NET "cin" LOC = "G12"; # Bank = 0, Signal name = BTN0
+
+NET "segmentos<0>" LOC = "L14"; # Bank = 1, Signal name = CA
+NET "segmentos<1>" LOC = "H12"; # Bank = 1, Signal name = CB
+NET "segmentos<2>" LOC = "N14"; # Bank = 1, Signal name = CC
+NET "segmentos<3>" LOC = "N11"; # Bank = 2, Signal name = CD
+NET "segmentos<4>" LOC = "P12"; # Bank = 2, Signal name = CE
+NET "segmentos<5>" LOC = "L13"; # Bank = 1, Signal name = CF
+NET "segmentos<6>" LOC = "M12"; # Bank = 1, Signal name = CG

@@ -1,0 +1,7 @@
+vhdl isim_temp "sumamedia.vhd"
+vhdl isim_temp "icxor.vhd"
+vhdl isim_temp "sumadorn.vhd"
+vhdl isim_temp "presenta.vhd"
+vhdl isim_temp "complemento.vhd"
+vhdl isim_temp "sumadorestador.vhd"
+vhdl isim_temp "Tes.vhd"

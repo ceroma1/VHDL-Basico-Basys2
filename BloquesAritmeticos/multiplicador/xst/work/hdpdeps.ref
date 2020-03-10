@@ -1,0 +1,22 @@
+V3 11
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/multiplica4x3.vhd 2020/01/13.22:36:49 O.87xd
+EN work/multiplica4x3 1583864456 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/multiplica4x3.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/multiplica4x3/Behavioral 1583864457 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/multiplica4x3.vhd \
+      EN work/multiplica4x3 1583864456 CP SumaParalela
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/sumamedia.vhd 2020/01/13.22:36:49 O.87xd
+EN work/SumaMedia 1583864452 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/sumamedia.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/SumaMedia/Behavioral 1583864453 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/sumamedia.vhd \
+      EN work/SumaMedia 1583864452
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/sumaparalela.vhd 2020/01/13.22:36:49 O.87xd
+EN work/SumaParalela 1583864454 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/sumaparalela.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/SumaParalela/Behavioral 1583864455 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/multiplicador/sumaparalela.vhd \
+      EN work/SumaParalela 1583864454 CP Sumamedia

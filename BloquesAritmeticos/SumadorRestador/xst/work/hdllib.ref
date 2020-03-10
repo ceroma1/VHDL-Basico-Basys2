@@ -1,0 +1,12 @@
+EN sumadorn NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/sumadorn.vhd sub00/vhpl06 1580894595
+EN presenta NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/presenta.vhd sub00/vhpl08 1580894597
+EN complemento NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/complemento.vhd sub00/vhpl04 1580894593
+AR complemento behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/complemento.vhd sub00/vhpl05 1580894594
+EN icxor NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/icxor.vhd sub00/vhpl02 1580894591
+EN sumamedia NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/sumamedia.vhd sub00/vhpl00 1580894589
+AR icxor behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/icxor.vhd sub00/vhpl03 1580894592
+AR sumadorestador behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/sumadorestador.vhd sub00/vhpl11 1580894600
+AR sumamedia behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/sumamedia.vhd sub00/vhpl01 1580894590
+AR presenta behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/presenta.vhd sub00/vhpl09 1580894598
+EN sumadorestador NULL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/sumadorestador.vhd sub00/vhpl10 1580894599
+AR sumadorn behavioral //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorRestador/sumadorn.vhd sub00/vhpl07 1580894596

@@ -1,0 +1,16 @@
+NET "DatoB<3>" LOC = "N3";  # name = SW7
+NET "DatoB<2>" LOC = "E2";  # name = SW6
+NET "DatoB<1>" LOC = "F3";  # name = SW5
+NET "DatoB<0>" LOC = "G3";  # name = SW4
+NET "DatoA<3>" LOC = "B4";  # name = SW3
+NET "DatoA<2>" LOC = "K3";  # name = SW2
+NET "DatoA<1>" LOC = "L3";  # name = SW1
+NET "DatoA<0>" LOC = "P11"; # name = SW0
+
+NET "cin" LOC = "G12"; # name = BTN0
+
+NET "Suma<4>" LOC = "N5" ;  # name = LD4
+NET "Suma<3>" LOC = "P6" ;  # name = LD3
+NET "Suma<2>" LOC = "P7" ;  # name = LD2
+NET "Suma<1>" LOC = "M11" ; # name = LD1
+NET "Suma<0>" LOC = "M5" ;  # name = LD0

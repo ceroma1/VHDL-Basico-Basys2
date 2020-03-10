@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "F:/BloquesAritmeticos/contar/superior.xst" -ofn "F:/BloquesAritmeticos/contar/superior.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s100e-cp132-4 superior.ngc superior.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o superior_map.ncd superior.ngd superior.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s100e-cp132-4 superior.ngc superior.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o superior_map.ncd superior.ngd superior.pcf 
+par -w -intstyle ise -ol high -t 1 superior_map.ncd superior.ncd superior.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml superior.twx superior.ncd -o superior.twr superior.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f superior.ut superior.ncd 

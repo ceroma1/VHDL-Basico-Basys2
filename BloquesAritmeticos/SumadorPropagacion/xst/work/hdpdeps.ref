@@ -1,0 +1,22 @@
+V3 11
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorPropagacion/bitfulladder1.vhd 2020/01/12.21:54:42 O.87xd
+EN work/bitFullAdder1 1580833737 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorPropagacion/bitfulladder1.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/bitFullAdder1/Behavioral 1580833738 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorPropagacion/bitfulladder1.vhd \
+      EN work/bitFullAdder1 1580833737
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorPropagacion/carrylookahead.vhd 2020/01/12.21:54:42 O.87xd
+EN work/CarryLookAhead 1580833739 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorPropagacion/carrylookahead.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/CarryLookAhead/Behavioral 1580833740 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorPropagacion/carrylookahead.vhd \
+      EN work/CarryLookAhead 1580833739
+FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorPropagacion/topadditindspeed.vhd 2020/01/12.21:54:42 O.87xd
+EN work/TopAdditionSpeed 1580833741 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorPropagacion/topadditindspeed.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/TopAdditionSpeed/Behavioral 1580833742 \
+      FL //vboxsrv/(00)codigos_vhdl_basys2/BloquesAritmeticos/SumadorPropagacion/topadditindspeed.vhd \
+      EN work/TopAdditionSpeed 1580833741 CP bitFullAdder1 CP CarryLookAhead
